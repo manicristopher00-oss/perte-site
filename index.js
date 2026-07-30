@@ -2,7 +2,7 @@ javascript
 import { useState } from 'react';
 import useSWR from 'swr';
 
-const API_KEY = "TUA_API_KEY_GNEWS"; // INSERISCI QUI LA TUA API KEY DI GNEWS
+const API_KEY = "2101f030fd2d6dc321e3cea98c2e93af"; // INSERISCI QUI LA TUA API KEY DI GNEWS
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
